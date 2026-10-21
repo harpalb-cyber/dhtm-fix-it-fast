@@ -1,0 +1,89 @@
+[
+  {
+    "brand": "Apple",
+    "source": "https://www.apple.com",
+    "slug": "apple"
+  },
+  {
+    "brand": "Samsung",
+    "source": "https://www.samsung.com/us/about-us/brand-identity/logo/",
+    "slug": "samsung"
+  },
+  {
+    "brand": "Google",
+    "source": "https://partnermarketinghub.withgoogle.com",
+    "slug": "google"
+  },
+  {
+    "brand": "Huawei",
+    "source": "https://e.huawei.com/ph/material/partner/0a72728b864949c48b22106454352483",
+    "slug": "huawei"
+  },
+  {
+    "brand": "OnePlus",
+    "source": "https://www.oneplus.com/ca_en/brand/asset",
+    "slug": "oneplus"
+  },
+  {
+    "brand": "Xiaomi",
+    "source": "https://www.mi.com/global",
+    "slug": "xiaomi"
+  },
+  {
+    "brand": "Motorola",
+    "source": "https://motorola-global-portal-de.custhelp.com",
+    "slug": "motorola"
+  },
+  {
+    "brand": "OPPO",
+    "source": "https://www.figma.com/community/file/832815970641696814/OPPO-Media-Kit",
+    "slug": "oppo"
+  },
+  {
+    "brand": "HONOR",
+    "source": "https://www.hihonor.com",
+    "slug": "honor"
+  },
+  {
+    "brand": "Sony",
+    "source": "https://www.sony.com",
+    "slug": "sony"
+  },
+  {
+    "brand": "Nokia",
+    "source": "https://www.nokia.com",
+    "slug": "nokia"
+  },
+  {
+    "brand": "Nothing",
+    "source": "https://www.nothing.tech"
+  },
+  {
+    "brand": "realme",
+    "source": "https://commons.wikimedia.org/wiki/File:Realme_logo_SVG.svg"
+  },
+  {
+    "brand": "Lenovo",
+    "source": "https://news.lenovo.com/press-kits/",
+    "slug": "lenovo"
+  },
+  {
+    "brand": "Dell",
+    "source": "https://www.dell.com",
+    "slug": "dell"
+  },
+  {
+    "brand": "HP",
+    "source": "https://brandcentral.hp.com/us/en/elements/hp-logo.html",
+    "slug": "hp"
+  },
+  {
+    "brand": "Microsoft",
+    "source": "https://github.com/simple-icons/simple-icons/blob/11.15.0/icons/microsoft.svg"
+  },
+  {
+    "brand": "ASUS",
+    "source": "https://www.asus.com",
+    "slug": "asus"
+  }
+]

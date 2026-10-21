@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "phase": "handover-only",
+  "adminPortal": "deferred",
+  "publishAutomatically": false,
+  "repository": "https://github.com/harpalb-cyber/dhtm-fix-it-fast",
+  "baselineCommit": "0cdde7c7edefee128145a3db699c3712e7269c36",
+  "targetVisualUrl": "https://dht-mobiles-derby.nixie362362.chatgpt.site/",
+  "productionDomain": null,
+  "candidateBusiness": {
+    "approvalStatus": "reference-derived; owner confirmation required",
+    "name": "DHT Mobiles",
+    "address": "1–2 The Southview, Burton Road, Littleover, Derby DE23 6FP",
+    "phone": "01332 295244",
+    "email": "Dazzbilan@me.com",
+    "instagram": "https://www.instagram.com/dhtmobiles/",
+    "facebook": "https://www.facebook.com/DHTMOBILES/",
+    "openingHours": null
+  },
+  "bookings": {
+    "mode": "contact-fallback-until-decided",
+    "providerUrl": null,
+    "nativeApiBase": null,
+    "timeZone": "Europe/London",
+    "hoursAndCapacityApproved": false
+  },
+  "shop": {
+    "mode": "contact-fallback-until-decided",
+    "providerUrl": null,
+    "checkoutApiBase": null,
+    "catalogueApproved": false,
+    "shippingApproved": false
+  },
+  "enquiries": {
+    "mode": "explicit-email-draft-or-phone",
+    "endpoint": null,
+    "deliveryVerified": false
+  },
+  "tracking": {
+    "mode": "contact-fallback",
+    "providerUrl": null,
+    "apiBase": null
+  },
+  "sellDevice": {
+    "mode": "manual-enquiry",
+    "instantValuation": false
+  },
+  "content": {
+    "repairPricesApproved": false,
+    "productsApproved": false,
+    "hoursApproved": false,
+    "warrantyApproved": false,
+    "privacyAndTermsApproved": false
+  },
+  "rules": [
+    "Null destinations must not create broken links.",
+    "No fake confirmations or browser-only shop records.",
+    "No secrets in client configuration.",
+    "Missing service inputs do not block visual work; they block operational launch claims."
+  ]
+}
