@@ -1,167 +1,40 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
+import { Link, useSearchParams } from "react-router-dom";
+import { Search, RotateCcw, ArrowUpRight } from "lucide-react";
+import taxonomy from "@/data/model-taxonomy-reference.json";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Clock, Shield, Search } from "lucide-react";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Artwork, BrandTile, brandNames, PageIntro } from "@/components/customer/Shared";
+import { Device, estimateRepairs, formatMoney } from "@/lib/customer-services";
 
-const repairData = [
-  { id: "ip13-screen", brand: "Apple", model: "iPhone 13", repairType: "Screen Replacement", priceGBP: 159, durationMins: 60, warrantyMonths: 12, notes: "Genuine quality parts" },
-  { id: "s22-battery", brand: "Samsung", model: "Galaxy S22", repairType: "Battery Replacement", priceGBP: 89, durationMins: 90, warrantyMonths: 12, notes: "" },
-  { id: "ip14-screen", brand: "Apple", model: "iPhone 14", repairType: "Screen Replacement", priceGBP: 199, durationMins: 60, warrantyMonths: 12, notes: "Genuine quality parts" },
-  { id: "ip12-battery", brand: "Apple", model: "iPhone 12", repairType: "Battery Replacement", priceGBP: 79, durationMins: 45, warrantyMonths: 12, notes: "" },
-  { id: "s23-screen", brand: "Samsung", model: "Galaxy S23", repairType: "Screen Replacement", priceGBP: 189, durationMins: 75, warrantyMonths: 12, notes: "Premium OLED display" },
-  { id: "ipadair-screen", brand: "Apple", model: "iPad Air", repairType: "Screen Replacement", priceGBP: 249, durationMins: 120, warrantyMonths: 12, notes: "Precision repair required" },
-];
-
-const Repairs = () => {
-  const [searchTerm, setSearchTerm] = useState("");
-  const [brandFilter, setBrandFilter] = useState("all");
-  const [repairTypeFilter, setRepairTypeFilter] = useState("all");
-
-  const filteredRepairs = repairData.filter((repair) => {
-    const matchesSearch = repair.model.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                         repair.brand.toLowerCase().includes(searchTerm.toLowerCase());
-    const matchesBrand = brandFilter === "all" || repair.brand === brandFilter;
-    const matchesRepairType = repairTypeFilter === "all" || repair.repairType === repairTypeFilter;
-    
-    return matchesSearch && matchesBrand && matchesRepairType;
-  });
-
-  const brands = [...new Set(repairData.map(item => item.brand))];
-  const repairTypes = [...new Set(repairData.map(item => item.repairType))];
-
-  return (
-    <div className="py-12">
-      <div className="container mx-auto px-4">
-        {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl lg:text-5xl font-bold mb-4">
-            Repair <span className="text-gradient">Pricelist</span>
-          </h1>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Transparent pricing for popular phone and tablet repairs. All repairs include our 12-month warranty.
-          </p>
-        </div>
-
-        {/* Filters */}
-        <div className="bg-white rounded-xl shadow-card p-6 mb-8">
-          <div className="grid md:grid-cols-4 gap-4">
-            <div className="relative">
-              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-4 h-4" />
-              <Input
-                placeholder="Search device..."
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                className="pl-10"
-              />
-            </div>
-            
-            <Select value={brandFilter} onValueChange={setBrandFilter}>
-              <SelectTrigger>
-                <SelectValue placeholder="All Brands" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="all">All Brands</SelectItem>
-                {brands.map((brand) => (
-                  <SelectItem key={brand} value={brand}>{brand}</SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
-
-            <Select value={repairTypeFilter} onValueChange={setRepairTypeFilter}>
-              <SelectTrigger>
-                <SelectValue placeholder="All Repairs" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="all">All Repairs</SelectItem>
-                {repairTypes.map((type) => (
-                  <SelectItem key={type} value={type}>{type}</SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
-
-            <Button variant="outline" onClick={() => {
-              setSearchTerm("");
-              setBrandFilter("all");
-              setRepairTypeFilter("all");
-            }}>
-              Clear Filters
-            </Button>
-          </div>
-        </div>
-
-        {/* Repair Cards */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-          {filteredRepairs.map((repair) => (
-            <Card key={repair.id} className="hover:shadow-hover transition-smooth">
-              <CardHeader>
-                <div className="flex justify-between items-start">
-                  <div>
-                    <CardTitle className="text-lg">{repair.brand} {repair.model}</CardTitle>
-                    <p className="text-muted-foreground">{repair.repairType}</p>
-                  </div>
-                  <Badge variant="secondary" className="bg-primary/10 text-primary">
-                    £{repair.priceGBP}
-                  </Badge>
-                </div>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="flex items-center justify-between text-sm">
-                  <div className="flex items-center gap-2">
-                    <Clock className="w-4 h-4 text-muted-foreground" />
-                    <span>{repair.durationMins} mins</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Shield className="w-4 h-4 text-accent" />
-                    <span>{repair.warrantyMonths}mo warranty</span>
-                  </div>
-                </div>
-                
-                {repair.notes && (
-                  <p className="text-sm text-muted-foreground">{repair.notes}</p>
-                )}
-
-                <Button className="w-full" variant="cta">
-                  Book This Repair
-                </Button>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-
-        {filteredRepairs.length === 0 && (
-          <div className="text-center py-12">
-            <p className="text-muted-foreground text-lg">No repairs found matching your criteria.</p>
-          </div>
-        )}
-
-        {/* FAQ Section */}
-        <div className="bg-muted/50 rounded-xl p-8">
-          <h2 className="text-2xl font-bold mb-6 text-center">Frequently Asked Questions</h2>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div>
-              <h3 className="font-semibold mb-2">How long do repairs take?</h3>
-              <p className="text-muted-foreground">Most phones are repaired same day, often within 60–90 minutes depending on the issue.</p>
-            </div>
-            <div>
-              <h3 className="font-semibold mb-2">Do you use quality parts?</h3>
-              <p className="text-muted-foreground">Yes, all parts are sourced from trusted suppliers and include a 12-month warranty unless stated otherwise.</p>
-            </div>
-            <div>
-              <h3 className="font-semibold mb-2">What if my device can't be repaired?</h3>
-              <p className="text-muted-foreground">We offer a free diagnostic. If repair isn't possible, there's no charge for the assessment.</p>
-            </div>
-            <div>
-              <h3 className="font-semibold mb-2">Do you offer collection and delivery?</h3>
-              <p className="text-muted-foreground">Yes, we offer postal repair service for your convenience. Fully insured and tracked.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default Repairs;
+const devices: Device[] = taxonomy.devices;
+const families = [["phone", "Phone"], ["tablet", "Tablet"], ["laptop", "Laptop"], ["watch", "Watch"]];
+export default function Repairs() {
+  const [params, setParams] = useSearchParams();
+  const brand = params.get("brand") || "Apple";
+  const kind = params.get("family") || "phone";
+  const modelId = params.get("model") || "";
+  const selectedIds = (params.get("repairs") || "").split(",").filter(Boolean);
+  const [search, setSearch] = useState("");
+  const [repairFilter, setRepairFilter] = useState("all");
+  const [showBrands, setShowBrands] = useState(false);
+  const available = useMemo(() => devices.filter(d => d.brand.toLowerCase() === brand.toLowerCase() && d.kind === kind), [brand, kind]);
+  const matches = available.filter(d => `${d.modelLabel} ${d.deviceType} ${d.modelCodes.join(" ")}`.toLowerCase().includes(search.toLowerCase()));
+  const model = available.find(d => d.id === modelId);
+  const selected = model?.repairs.filter(r => selectedIds.includes(r.id)) || [];
+  const estimate = estimateRepairs(selected);
+  function changeDevice(key: string, value: string) {
+    const next = new URLSearchParams(params); next.set(key, value); next.delete("repairs");
+    if (key !== "model") next.delete("model");
+    setParams(next); setSearch(""); setRepairFilter("all");
+  }
+  function toggleRepair(id: string) {
+    const next = new URLSearchParams(params);
+    const ids = selectedIds.includes(id) ? selectedIds.filter(x => x !== id) : [...selectedIds, id];
+    if (ids.length) next.set("repairs", ids.join(",")); else next.delete("repairs");
+    setParams(next);
+  }
+  const context = model ? `${model.brand} ${model.displayName}${selected.length ? ` — ${selected.map(r => r.name).join(", ")}` : ""}` : "";
+  return <><PageIntro title="Find your repair." description="Choose your brand, device and model. Ask DHT to confirm repair availability and a quote." /><section className="section-pad"><div className="site-container repair-layout"><div className="repair-form"><div className="step-label">Device & repair enquiry</div><div className="selector-grid"><label>Brand<select value={brand} onChange={e => changeDevice("brand", e.target.value)}>{brandNames.map(b => <option key={b}>{b}</option>)}</select></label><label>Device family<select value={kind} onChange={e => changeDevice("family", e.target.value)}>{families.map(([value, label]) => <option value={value} key={value}>{label}</option>)}</select></label><label>Model<select value={model?.id || ""} onChange={e => changeDevice("model", e.target.value)}><option value="">Choose your model</option>{available.map(d => <option value={d.id} key={d.id}>{d.modelLabel}</option>)}</select></label></div><Button variant="outline" className="brand-disclosure" aria-expanded={showBrands} onClick={() => setShowBrands(!showBrands)}><Artwork name={brand.toLowerCase()} /><span><strong>{brand}</strong><small>Choose another brand</small></span><span aria-hidden="true">{showBrands ? "−" : "+"}</span></Button>{showBrands && <div className="brand-grid compact-brands">{brandNames.map(name => <BrandTile key={name} name={name} selected={name === brand} onClick={() => { changeDevice("brand", name); setShowBrands(false); }} />)}</div>}<div className="family-grid">{families.map(([value, label]) => <Button key={value} variant="outline" aria-pressed={kind === value} className={`family-tile ${kind === value ? "is-selected" : ""}`} onClick={() => changeDevice("family", value)}><Artwork name={`device-${value}`} /><span>{label}</span></Button>)}</div><p className="breadcrumb">{brand} <span>›</span> {families.find(([v]) => v === kind)?.[1]} {model && <><span>›</span> {model.modelLabel}</>}</p><label className="field-label" htmlFor="model-search">Find your model or model number</label><div className="search-field"><Search size={18} /><Input id="model-search" placeholder="Search e.g. iPhone 15, A2696 or Pixel 8" value={search} onChange={e => setSearch(e.target.value)} /></div>{search && <div className="model-results" aria-live="polite">{matches.length ? <><p>{matches.length} matching {matches.length === 1 ? "model" : "models"}</p>{matches.map(d => <Button variant="ghost" key={d.id} onClick={() => changeDevice("model", d.id)}>{d.modelLabel} {d.modelCodes.length > 0 && <small>{d.modelCodes.join(", ")}</small>}<ArrowUpRight /></Button>)}</> : <div><p>No model found for this brand and family.</p><Link className="text-link" to={`/contact?context=${encodeURIComponent(`Help identifying ${brand} ${kind}: ${search}`)}#book`}>Ask DHT to identify your device ↗</Link></div>}</div>}<details className="model-help"><summary>Not sure which model you have?</summary><p>On a phone or tablet, look in Settings → About. For a laptop or watch, check its settings or the label on the device. You can share the model number with DHT — never send your device passcode.</p><Link className="text-link" to="/contact#book">Ask for model help ↗</Link></details><div className="section-heading repair-heading"><h2>What needs repairing?</h2><Button variant="ghost" size="icon" title="Reset selections" aria-label="Reset selections" onClick={() => { setParams({ brand: "Apple", family: "phone" }); setSearch(""); setRepairFilter("all"); }}><RotateCcw /></Button></div><p className="small-note">These are enquiry options, not confirmed services. DHT will check your device, parts and repair availability.</p>{model ? <><label className="field-label" htmlFor="repair-filter">Filter repair enquiries</label><select id="repair-filter" value={repairFilter} onChange={e => setRepairFilter(e.target.value)}><option value="all">All repair types</option>{model.repairs.map(r => <option value={r.id} key={r.id}>{r.name}</option>)}</select><div className="repair-options">{model.repairs.filter(r => repairFilter === "all" || r.id === repairFilter).map(r => <label key={r.id} className={`repair-option ${selectedIds.includes(r.id) ? "is-selected" : ""}`}><Checkbox checked={selectedIds.includes(r.id)} onCheckedChange={() => toggleRepair(r.id)} aria-label={r.name} /><Artwork name={`repair-${r.id}`} /><span><strong>{r.name}</strong><small>Subject to assessment & availability</small></span><strong className="repair-price">{r.pricePence !== null && r.pricePence > 0 ? formatMoney(r.pricePence) : "Ask for a quote"}</strong></label>)}</div></> : <div className="empty-state compact-empty"><Artwork name={`device-${kind}`} /><h3>Choose your model to continue.</h3><p>{available.length ? "Select a model above to tell us what needs attention." : "No models are listed for this combination. DHT can help identify your device and check service availability."}</p></div>}<Button asChild disabled={!model || !selected.length} className={!model || !selected.length ? "pointer-events-none opacity-50" : ""}><Link aria-disabled={!model || !selected.length} tabIndex={!model || !selected.length ? -1 : undefined} to={`/contact?context=${encodeURIComponent(context)}#book`}>Enquire about this repair <ArrowUpRight /></Link></Button><p className="small-note">No appointment is reserved. Your quote and visit are agreed with DHT.</p><Link className="text-link" to="/contact#book">Can’t find your device? Ask for a quote ↗</Link></div><aside className="estimate-panel" aria-live="polite"><h2>Your repair estimate</h2><div className="estimate-device"><Artwork name={`device-${kind}`} /><div><small>{brand} · {families.find(([v]) => v === kind)?.[1]}</small><strong>{model?.modelLabel || "Choose your model"}</strong></div></div>{selected.length > 0 && <ul className="estimate-items">{selected.map(r => <li key={r.id}><span>{r.name}</span><strong>{r.pricePence !== null && r.pricePence > 0 ? formatMoney(r.pricePence) : "Quote required"}</strong></li>)}</ul>}<div className="estimate-total"><span>Estimate</span><strong>{!selected.length ? "Not selected" : estimate.requiresQuote ? "Final total requires a quote" : formatMoney(estimate.knownPence)}</strong>{estimate.requiresQuote && estimate.knownPence > 0 && <small>Known items: {formatMoney(estimate.knownPence)}</small>}</div><p>Final price, part specifications and turnaround are confirmed with the shop after assessment.</p><p className="estimate-note">This is a repair enquiry, not a confirmed booking. No online payment is taken.</p>{selected.length > 0 && <Button className="w-full" asChild><Link to={`/contact?context=${encodeURIComponent(context)}#book`}>Ask DHT for a quote <ArrowUpRight /></Link></Button>}</aside></div></section></>;
+}
