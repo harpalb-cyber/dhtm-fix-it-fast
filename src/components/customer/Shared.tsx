@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, ArrowUpRight, MapPin } from "lucide-react";
+import { Phone, Send, ArrowUpRight, MapPin, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
 import { assets } from "@/assets/dht";
-import { business, phoneUrl, emailDraftUrl, directionsUrl } from "@/lib/customer-services";
+import { business, phoneUrl, directionsUrl, whatsappUrl, whatsappNumber } from "@/lib/customer-services";
 
 export function Artwork({ name, alt = "", className = "" }: { name: string; alt?: string; className?: string }) {
   const asset = assets[name];
