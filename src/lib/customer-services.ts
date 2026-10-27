@@ -6,6 +6,9 @@ export const phoneUrl = `tel:${business.phone.replace(/\s/g, "")}`;
 export const directionsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`DHT Mobiles ${business.address}`)}`;
 export const emailDraftUrl = (subject: string, body = "") =>
   `mailto:${business.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+export const whatsappNumber = "07935434058";
+export const whatsappUrl = (text = "Hi DHT Mobiles, I have a question.") =>
+  `https://wa.me/447935434058?text=${encodeURIComponent(text)}`;
 
 export interface RepairItem { id: string; name: string; pricePence: number | null; durationMinutes: number | null; availability: string }
 export interface Device { id: string; brand: string; deviceType: string; kind: string; modelLabel: string; displayName: string; modelCodes: string[]; repairs: RepairItem[]; approvedForBooking: boolean }

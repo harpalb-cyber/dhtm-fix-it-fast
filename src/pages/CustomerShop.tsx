@@ -5,7 +5,8 @@ import { Search, ShoppingBag, RotateCcw, ArrowUpRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Artwork, ContactActions, PageIntro } from "@/components/customer/Shared";
-import { filterProducts, loadCatalogue, formatMoney, shopDestination } from "@/lib/customer-services";
+import { loadLiveCatalogue as loadCatalogue } from "@/lib/live-data";
+import { filterProducts, formatMoney, shopDestination } from "@/lib/customer-services";
 
 export default function CustomerShop() {
   const [params, setParams] = useSearchParams();
@@ -14,7 +15,7 @@ export default function CustomerShop() {
   const [condition, setCondition] = useState("all");
   const [sort, setSort] = useState("name");
   const category = params.get("category") || "all";
-  const query = useQuery({ queryKey: ["catalogue"], queryFn: loadCatalogue, retry: 1 });
+  const query = useQuery({ queryKey: ["catalogue"], queryFn: retry: 1 });
   const products = query.data || [];
   const result = filterProducts(products, { search, category, brand, condition, sort });
   const destination = shopDestination();
