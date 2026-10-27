@@ -14,7 +14,144 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      device_repairs: {
+        Row: {
+          available: boolean
+          brand: string
+          device_id: string
+          device_type: string
+          duration_minutes: number | null
+          family: string
+          id: string
+          model: string
+          notes: string
+          price_pence: number | null
+          repair_id: string
+          repair_name: string
+          updated_at: string
+        }
+        Insert: {
+          available?: boolean
+          brand: string
+          device_id: string
+          device_type?: string
+          duration_minutes?: number | null
+          family: string
+          id: string
+          model: string
+          notes?: string
+          price_pence?: number | null
+          repair_id: string
+          repair_name: string
+          updated_at?: string
+        }
+        Update: {
+          available?: boolean
+          brand?: string
+          device_id?: string
+          device_type?: string
+          duration_minutes?: number | null
+          family?: string
+          id?: string
+          model?: string
+          notes?: string
+          price_pence?: number | null
+          repair_id?: string
+          repair_name?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      enquiries: {
+        Row: {
+          context: string
+          created_at: string
+          device: string
+          device_condition: string
+          email: string
+          id: string
+          kind: string
+          message: string
+          name: string
+          phone: string
+        }
+        Insert: {
+          context?: string
+          created_at?: string
+          device?: string
+          device_condition?: string
+          email: string
+          id?: string
+          kind: string
+          message: string
+          name: string
+          phone?: string
+        }
+        Update: {
+          context?: string
+          created_at?: string
+          device?: string
+          device_condition?: string
+          email?: string
+          id?: string
+          kind?: string
+          message?: string
+          name?: string
+          phone?: string
+        }
+        Relationships: []
+      }
+      products: {
+        Row: {
+          active: boolean
+          brand: string
+          category: string
+          colour: string
+          condition: string
+          description: string
+          image_url: string
+          name: string
+          price_pence: number
+          sku: string
+          slug: string
+          stock: number
+          storage: string
+          updated_at: string
+        }
+        Insert: {
+          active?: boolean
+          brand?: string
+          category?: string
+          colour?: string
+          condition?: string
+          description?: string
+          image_url?: string
+          name: string
+          price_pence: number
+          sku: string
+          slug: string
+          stock?: number
+          storage?: string
+          updated_at?: string
+        }
+        Update: {
+          active?: boolean
+          brand?: string
+          category?: string
+          colour?: string
+          condition?: string
+          description?: string
+          image_url?: string
+          name?: string
+          price_pence?: number
+          sku?: string
+          slug?: string
+          stock?: number
+          storage?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
