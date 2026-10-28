@@ -21,3 +21,11 @@ test("shop filters combine and prices sort", () => {
   const products: Product[] = [{ ...base, id: "a", slug: "a", name: "Phone Alpha", pricePence: 20000 }, { ...base, id: "b", slug: "b", name: "Phone Beta", pricePence: 10000 }, { ...base, id: "c", slug: "c", name: "Phone Other", pricePence: 5000, brand: "Samsung" }];
   expect(filterProducts(products, { category: "phones", brand: "Apple", condition: "refurbished", search: "phone", sort: "price-low" }).map(p => p.id)).toEqual(["b", "a"]);
 });
+import { whatsappUrl } from "./customer-services";
+describe("whatsapp", () => {
+  test("links to DHT's WhatsApp 07935434058 in international format", () => {
+    const url = new URL(whatsappUrl("iPhone 13 screen"));
+    expect(url.pathname).toBe("/447935434058");
+    expect(url.searchParams.get("text")).toBe("iPhone 13 screen");
+  });
+});
