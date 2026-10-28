@@ -15,7 +15,7 @@ export default function CustomerShop() {
   const [condition, setCondition] = useState("all");
   const [sort, setSort] = useState("name");
   const category = params.get("category") || "all";
-  const query = useQuery({ queryKey: ["catalogue"], queryFn: retry: 1 });
+  const query = useQuery({ queryKey: ["catalogue"], queryFn: loadCatalogue, retry: 1 });
   const products = query.data || [];
   const result = filterProducts(products, { search, category, brand, condition, sort });
   const destination = shopDestination();
