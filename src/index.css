@@ -139,7 +139,25 @@
 @media(min-width:768px) { .hero-art > img { width:115%; height:115%; right:-3%; top:-7%; } .hero-art::after { background:linear-gradient(90deg,#f5f7fb 0%,rgba(245,247,251,.88) 18%,rgba(245,247,251,.3) 42%,transparent 65%); } .hero-art .art-caption { right:10%; bottom:8%; box-shadow:0 8px 28px rgba(31,41,55,.08); } }
 @media(max-width:767px) { .whatsapp-panel { padding:20px; } .whatsapp-panel .whatsapp-btn { width:100%; } }
 
-/* Consistent DHT surfaces across training sections. */
-.training-page .section-pad, .training-page .section-pad:nth-of-type(even) { background: #fff; }
-.training-page article, .training-page .section-pad .bg-card { background: #fff; border-color: #e5e7eb; }
-.training-page #training-enquiry { background: #f2f6ff; }
+/* Training sections alternate DHT tinted, white and dark bands. */
+.training-page .section-pad { background: hsl(var(--background)); }
+.training-page .section-pad:nth-of-type(even) { background: hsl(var(--muted)); border-block: 1px solid hsl(var(--border)); }
+.training-page .section-pad.training-dark { background: hsl(var(--secondary)); color: hsl(var(--secondary-foreground)); border: 0; }
+.training-page .training-dark > div > h2, .training-page .training-dark > div > p { color: hsl(var(--secondary-foreground)); }
+.training-page .training-dark > div > p.text-muted-foreground, .training-page .training-dark > div > .small-note { color: hsl(var(--secondary-foreground) / .78); }
+.training-page .training-dark article { color: hsl(var(--foreground)); }
+.training-page article, .training-page .section-pad .bg-card { background: hsl(var(--card)); border-color: hsl(var(--border)); }
+.training-page #training-enquiry { background: hsl(var(--primary) / .07); }
+/* Mobile menu */
+.menu-panel { display: flex; flex-direction: column; gap: 18px; padding-top: 28px; }
+.menu-panel .menu-logo { width: 170px; }
+.menu-links { margin: 6px 0; }
+.menu-links a { font-size: 17px; font-weight: 700; color: hsl(var(--foreground)); transition: color .15s, padding .15s; }
+.menu-links a:hover, .menu-links a.active { color: hsl(var(--primary)); padding-left: 6px; }
+/* Photo upload */
+.photo-drop { display: grid; place-items: center; gap: 6px; text-align: center; border: 2px dashed hsl(var(--border)); border-radius: 14px; padding: 24px; cursor: pointer; background: hsl(var(--muted)); margin-bottom: 12px; }
+.photo-drop:hover, .photo-drop.is-over { border-color: hsl(var(--primary)); background: hsl(var(--primary) / .06); }
+.photo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); gap: 10px; margin-bottom: 14px; }
+.photo-grid figure { position: relative; aspect-ratio: 1; border-radius: 10px; overflow: hidden; border: 1px solid hsl(var(--border)); }
+.photo-grid img { width: 100%; height: 100%; object-fit: cover; }
+.photo-grid button { position: absolute; top: 4px; right: 4px; border-radius: 999px; background: hsl(var(--background) / .9); padding: 3px; }
