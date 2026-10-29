@@ -43,3 +43,12 @@ export function enquiryErrors(fields: { name: string; email: string; message: st
     message: fields.message.trim() ? "" : "Please tell us what you need help with.",
   };
 }
+export const photoLimits = { maxFiles: 6, maxBytes: 10 * 1024 * 1024, types: ["image/jpeg", "image/png", "image/webp", "image/heic", "image/heif"] };
+/** Returns an error message for an unacceptable photo, or "" when it is fine. */
+export function photoError(file: { type: string; size: number; name: string }, currentCount: number): string {
+  if (currentCount >= photoLimits.maxFiles) return `You can add up to ${photoLimits.maxFiles} photos.`;
+  const heic = /\.(heic|heif)$/i.test(file.name);
+  if (!photoLimits.types.includes(file.type) && !heic) return `${file.name} isn't a JPG, PNG, WebP or HEIC photo.`;
+  if (file.size > photoLimits.maxBytes) return `${file.name} is larger than 10MB.`;
+  return "";
+}

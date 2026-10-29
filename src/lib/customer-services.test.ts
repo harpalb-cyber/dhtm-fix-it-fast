@@ -29,3 +29,11 @@ describe("whatsapp", () => {
     expect(url.searchParams.get("text")).toBe("iPhone 13 screen");
   });
 });
+
+import { photoError } from "./customer-services";
+describe("sell photo limits", () => {
+  test("accepts a 5MB jpeg", () => expect(photoError({ type: "image/jpeg", size: 5e6, name: "a.jpg" }, 0)).toBe(""));
+  test("rejects over 10MB", () => expect(photoError({ type: "image/png", size: 10 * 1024 * 1024 + 1, name: "a.png" }, 0)).not.toBe(""));
+  test("rejects a 7th photo", () => expect(photoError({ type: "image/png", size: 100, name: "a.png" }, 6)).not.toBe(""));
+  test("rejects pdf", () => expect(photoError({ type: "application/pdf", size: 100, name: "a.pdf" }, 0)).not.toBe(""));
+});
