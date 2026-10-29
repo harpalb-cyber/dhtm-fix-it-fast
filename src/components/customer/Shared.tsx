@@ -3,7 +3,7 @@ import { Phone, Send, ArrowUpRight, MapPin, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
 import { assets } from "@/assets/dht";
-import { business, phoneUrl, directionsUrl, whatsappUrl, whatsappNumber } from "@/lib/customer-services";
+import { business, phoneUrl, directionsUrl, whatsappUrl } from "@/lib/customer-services";
 
 export function Artwork({ name, alt = "", className = "" }: { name: string; alt?: string; className?: string }) {
   const asset = assets[name];
@@ -12,7 +12,7 @@ export function Artwork({ name, alt = "", className = "" }: { name: string; alt?
 export function PageIntro({ title, description }: { title: string; description: string }) {
   return <section className="page-intro"><div className="site-container"><h1>{title}</h1><p>{description}</p></div></section>;
 }
-export function WhatsAppButton({ text, label = "WhatsApp us", className = "" }: { text?: string; label?: string; className?: string }) {
+export function WhatsAppButton({ text, label = "Message us on WhatsApp", className = "" }: { text?: string; label?: string; className?: string }) {
   return <Button asChild className={`whatsapp-btn ${className}`}><a href={whatsappUrl(text)} target="_blank" rel="noreferrer"><MessageCircle />{label}</a></Button>;
 }
 export function ContactActions({ subject = "DHT Mobiles enquiry", body = "" }: { subject?: string; body?: string }) {
@@ -20,13 +20,13 @@ export function ContactActions({ subject = "DHT Mobiles enquiry", body = "" }: {
   return <div className="action-row"><WhatsAppButton text={body || subject} /><Button variant="outline" asChild><a href={phoneUrl}><Phone />Call the shop</a></Button><Button variant="outline" asChild><Link to={`${path}?context=${encodeURIComponent(body || subject)}#book`}><Send />Send us a message</Link></Button></div>;
 }
 export function ShopLocation() {
-  return <aside className="location-panel"><MapPin className="text-primary" size={28} /><h3>Find the shop.</h3><p>{business.address}</p><Button asChild><a href={directionsUrl} target="_blank" rel="noreferrer">Get directions <ArrowUpRight /></a></Button><h4>Talk to DHT</h4><WhatsAppButton label={`WhatsApp ${whatsappNumber}`} className="w-full" /><a className="text-link" href={phoneUrl}>{business.phone}</a><a className="text-link break-all" href={`mailto:${business.email}`}>{business.email}</a><h4>Opening hours</h4><p>Call to confirm opening hours before visiting.</p><div className="action-row"><a className="text-link" href={business.instagram} target="_blank" rel="noreferrer">Instagram ↗</a><a className="text-link" href={business.facebook} target="_blank" rel="noreferrer">Facebook ↗</a></div></aside>;
+  return <aside className="location-panel"><MapPin className="text-primary" size={28} /><h3>Find the shop.</h3><p>{business.address}</p><Button asChild><a href={directionsUrl} target="_blank" rel="noreferrer">Get directions <ArrowUpRight /></a></Button><h4>Talk to DHT</h4><WhatsAppButton className="w-full" /><a className="text-link" href={phoneUrl}>{business.phone}</a><a className="text-link break-all" href={`mailto:${business.email}`}>{business.email}</a><h4>Opening hours</h4><p>Monday–Friday: 11am–7pm<br />Saturday: 11am–6pm<br />Sunday: 11am–3pm<br /><span className="small-note">Bank holiday hours may vary.</span></p><div className="action-row"><a className="text-link" href={business.instagram} target="_blank" rel="noreferrer">Instagram ↗</a><a className="text-link" href={business.facebook} target="_blank" rel="noreferrer">Facebook ↗</a></div></aside>;
 }
 export const faqs = [
   ["Can I see a price before booking?", "Choose your device and the issues you want help with. Current prices are available by quote from DHT; ask the shop to confirm the price and parts before agreeing a repair."],
   ["Is a drop-off time a guaranteed completion time?", "No. Please agree your visit with the shop. Repair time depends on the device, diagnosis and parts availability; DHT will confirm the arrangements."],
   ["How do postal repairs work?", "Contact DHT before posting. Agree the repair, packing instructions, charges and return arrangements with the shop first."],
-  ["Can I sell my phone to DHT?", "You can send a manual sell-device enquiry. Online valuations are coming soon, and an enquiry does not commit you to selling."],
+  ["Can I sell my phone to DHT?", "Yes. Contact us with your device details and we’ll discuss an offer."],
 ];
 export function FAQs({ title = "Repair questions, answered." }: { title?: string }) {
   return <section className="section-pad"><div className="site-container"><h2>{title}</h2><Accordion type="single" collapsible className="faq-list">{faqs.map(([q, a], i) => <AccordionItem value={`faq-${i}`} key={q}><AccordionTrigger className="text-left gap-4">{q}</AccordionTrigger><AccordionContent className="text-muted-foreground leading-relaxed">{a}</AccordionContent></AccordionItem>)}</Accordion><Link className="text-link inline-block mt-5" to="/help">More help <span aria-hidden="true">↗</span></Link></div></section>;
