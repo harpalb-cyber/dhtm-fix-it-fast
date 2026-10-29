@@ -27,11 +27,23 @@ export async function loadDeviceWithPrices(device: Device): Promise<Device> {
   };
 }
 
-export async function submitEnquiry(e: { kind: EnquiryKind; name: string; email: string; phone?: string; device?: string; device_condition?: string; context?: string; message: string }) {
+export async function submitEnquiry(e: { kind: EnquiryKind; name: string; email: string; phone?: string; device?: string; device_condition?: string; context?: string; message: string; photo_paths?: string[] }) {
   const { error } = await supabase.from("enquiries").insert({
     kind: e.kind, name: e.name.trim().slice(0, 100), email: e.email.trim().slice(0, 255), phone: (e.phone || "").trim().slice(0, 30),
     device: (e.device || "").trim().slice(0, 200), device_condition: (e.device_condition || "").slice(0, 50),
-    context: (e.context || "").slice(0, 500), message: e.message.trim().slice(0, 2000),
+    context: (e.context || "").slice(0, 500), message: e.message.trim().slice(0, 2000), photo_paths: (e.photo_paths || []).slice(0, 6),
   });
   if (error) throw error;
+}
+
+/** Uploads sell-enquiry photos to the private bucket (upload-only for customers) and returns their paths. */
+export async function uploadEnquiryPhotos(files: File[]): Promise<string[]> {
+  const folder = `sell/${crypto.randomUUID()}`;
+  return Promise.all(files.slice(0, 6).map(async (f, i) => {
+    const ext = (f.name.split(".").pop() || "jpg").toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 5) || "jpg";
+    const path = `${folder}/${i + 1}.${ext}`;
+    const { error } = await supabase.storage.from("enquiry-photos").upload(path, f, { contentType: f.type || undefined, upsert: false });
+    if (error) throw error;
+    return path;
+  }));
 }

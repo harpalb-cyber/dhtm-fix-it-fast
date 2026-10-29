@@ -125,7 +125,7 @@ export default function Training() {
       <p className="small-note mt-4">One member of our repair team holds a Level 3 qualification.</p>
     </div></section>
 
-    <section id="course-content" className="section-pad bg-secondary/40 scroll-mt-24"><div className="site-container">
+    <section id="course-content" className="section-pad training-dark scroll-mt-24"><div className="site-container">
       <Eyebrow>Course content</Eyebrow><h2>The fundamentals of smartphone repair.</h2>
       <p className="max-w-3xl text-muted-foreground">We'll take you through the essentials, starting with the tools and components inside a phone before exploring some of the most common repair tasks.</p>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-8">{topics.map(([Icon, t, d], i) => <article key={t} className={card}><div className="flex items-center justify-between mb-3"><Icon className="text-primary" size={28} /><span className="text-sm font-bold text-muted-foreground">0{i + 1}</span></div><h3>{t}</h3><p className="text-muted-foreground mb-0">{d}</p></article>)}</div>
@@ -157,7 +157,7 @@ export default function Training() {
       <div className="rounded-lg border-2 border-primary p-7 shadow-lg bg-card"><Eyebrow>Course details</Eyebrow><h2 className="text-2xl">One-Day Beginner Phone Repair Course</h2><ul className="space-y-2 my-5">{details.map(t => <li key={t} className="flex gap-3"><CheckCircle2 size={20} className="text-primary shrink-0" />{t}</li>)}</ul><p className="text-2xl font-extrabold">Contact us for course pricing</p><p className="text-muted-foreground text-sm">To secure a confirmed place, we'll arrange a deposit, with the remaining balance payable by the agreed date. The full course price, deposit amount, payment schedule and applicable terms will be explained before you make any payment.</p><Button size="lg" className="w-full" onClick={() => scrollTo("training-enquiry")}>Enquire about training</Button><p className="small-note text-center mt-3">Sending an enquiry does not reserve a place or require payment.</p></div>
     </div></section>
 
-    <section className="section-pad bg-secondary/40"><div className="site-container">
+    <section className="section-pad training-dark"><div className="site-container">
       <h2>From enquiry to your first repair.</h2>
       <div className="grid md:grid-cols-3 gap-5 mt-6">{[["01", "Send Your Enquiry", "Tell us you're interested in the beginner course and provide your contact details."], ["02", "We'll Call You", "We'll discuss the course, available dates, price and deposit arrangements, and answer your questions."], ["03", "Confirm and Attend", "Once you've agreed the details and paid the required deposit, we'll confirm your place and provide the information you'll need for the day."]].map(([n, t, d]) => <article key={n} className={card}><span className="text-3xl font-extrabold text-primary">{n}</span><h3 className="mt-2">{t}</h3><p className="text-muted-foreground mb-0">{d}</p></article>)}</div>
       <p className="font-semibold mt-5">A place is only confirmed when DHT Mobiles has accepted your booking and confirmed receipt of the required deposit.</p>

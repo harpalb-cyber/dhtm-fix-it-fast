@@ -74,6 +74,7 @@ export type Database = {
           message: string
           name: string
           phone: string
+          photo_paths: string[]
         }
         Insert: {
           context?: string
@@ -86,6 +87,7 @@ export type Database = {
           message: string
           name: string
           phone?: string
+          photo_paths?: string[]
         }
         Update: {
           context?: string
@@ -98,6 +100,7 @@ export type Database = {
           message?: string
           name?: string
           phone?: string
+          photo_paths?: string[]
         }
         Relationships: []
       }
