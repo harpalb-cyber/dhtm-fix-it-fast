@@ -266,12 +266,13 @@ html[data-theme=rounded] .location-panel h4 { margin-top:28px; }
 .quality-options label.is-selected { border-color:hsl(var(--primary)); background:hsl(var(--primary) / .07); color:hsl(var(--link)); }
 .quality-options input { width:13px; height:13px; min-height:0; accent-color:hsl(var(--primary)); }
 
-/* Small screens: show the full phone artwork below the copy. */
+/* Small screens: phone artwork stays behind the copy, with the white reading fade. */
 @media(max-width:767px) {
-  .home-hero .hero-layout { display:grid; grid-template-columns:1fr; padding-block:40px 28px; }
-  .home-hero .hero-art { position:relative; inset:auto; width:100%; margin:0; overflow:visible; animation:none; }
-  .home-hero .hero-art > img { position:static; width:100%; height:auto; max-width:100%; max-height:340px; object-fit:contain; object-position:center; }
-  .home-hero .hero-art::after { content:none; }
+  .home-hero .hero-layout { position:relative; isolation:isolate; display:grid; grid-template-columns:1fr; gap:0; min-height:0; padding-block:40px 190px; }
+  .home-hero .hero-copy { position:relative; z-index:2; }
+  .home-hero .hero-art { position:absolute; inset:0; z-index:0; width:auto; margin:0; overflow:hidden; }
+  .home-hero .hero-art > img { position:absolute; left:0; right:0; bottom:0; top:auto; width:100%; height:auto; max-width:100%; max-height:none; object-fit:contain; }
+  .home-hero .hero-art::after { content:''; position:absolute; inset:0; pointer-events:none; background:linear-gradient(180deg,#f5f7fb 0%,rgba(245,247,251,.95) 32%,rgba(245,247,251,.74) 56%,rgba(245,247,251,.4) 80%,rgba(245,247,251,.16) 100%); }
   .home-hero .hero-art .art-caption { display:none; }
 }
-@media(max-width:359px) { .home-hero .hero-art > img { max-height:260px; } }
+@media(max-width:359px) { .home-hero .hero-layout { padding-block:34px 160px; } }
