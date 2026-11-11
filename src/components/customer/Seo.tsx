@@ -5,6 +5,9 @@ import { launch } from "@/lib/customer-services";
 const descriptions: Record<string, [string, string]> = {
   "/": ["DHT Mobiles | Phone & tech repair enquiries in Littleover, Derby", "Life happens. We fix it. Explore device repair enquiries, phones and accessories, and contact DHT Mobiles in Littleover, Derby."],
   "/training/mobile-phone-repair-course": ["Beginner Phone Repair Course Derby | DHT Mobiles", "Learn iPhone and Samsung repair basics at DHT Mobiles in Derby. One-to-one training, equipment provided and hands-on practice."],
+  "/services/microsoldering": ["Microsoldering enquiries | DHT Mobiles Derby", "Ask DHT Mobiles about circuit-board faults and microsoldering for your device."],
+  "/services/computer-repairs": ["Laptop & computer repairs | DHT Mobiles Derby", "Enquire about laptop and desktop computer faults, repairs and upgrades."],
+  "/services/console-repairs": ["Games console repairs & upgrades | DHT Mobiles Derby", "Discuss console faults and compatible upgrades with DHT Mobiles."],
   "/repairs": ["Find your repair | DHT Mobiles", "Find your phone, tablet, laptop or watch and ask DHT for a repair quote."],
   "/shop": ["Phones & accessories | DHT Mobiles", "Enquire about current phones and accessories at DHT Mobiles, Littleover."],
   "/contact": ["Contact DHT Mobiles | Littleover, Derby", "Call DHT Mobiles, open an email enquiry or find directions to the Littleover shop."],
