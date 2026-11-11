@@ -2,6 +2,294 @@
   "status": "Reference taxonomy only. All prices/durations removed. Shop must approve service coverage before booking.",
   "devices": [
     {
+      "id": "apple-iphone-8",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone 8",
+      "displayName": "iPhone 8",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "apple-iphone-8-plus",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone 8 Plus",
+      "displayName": "iPhone 8 Plus",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "apple-iphone-x",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone X",
+      "displayName": "iPhone X",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "apple-iphone-xs",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone XS",
+      "displayName": "iPhone XS",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "apple-iphone-xs-max",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone XS Max",
+      "displayName": "iPhone XS Max",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "apple-iphone-xr",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone XR",
+      "displayName": "iPhone XR",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
       "id": "apple-iphone-11",
       "brand": "Apple",
       "deviceType": "iPhone",
@@ -50,300 +338,12 @@
       ]
     },
     {
-      "id": "apple-iphone-12",
+      "id": "apple-iphone-11-pro",
       "brand": "Apple",
       "deviceType": "iPhone",
       "kind": "phone",
-      "modelLabel": "iPhone 12",
-      "displayName": "iPhone 12",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
-    },
-    {
-      "id": "apple-iphone-13",
-      "brand": "Apple",
-      "deviceType": "iPhone",
-      "kind": "phone",
-      "modelLabel": "iPhone 13",
-      "displayName": "iPhone 13",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
-    },
-    {
-      "id": "apple-iphone-14",
-      "brand": "Apple",
-      "deviceType": "iPhone",
-      "kind": "phone",
-      "modelLabel": "iPhone 14",
-      "displayName": "iPhone 14",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
-    },
-    {
-      "id": "apple-iphone-15",
-      "brand": "Apple",
-      "deviceType": "iPhone",
-      "kind": "phone",
-      "modelLabel": "iPhone 15",
-      "displayName": "iPhone 15",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
-    },
-    {
-      "id": "apple-iphone-15-pro",
-      "brand": "Apple",
-      "deviceType": "iPhone",
-      "kind": "phone",
-      "modelLabel": "iPhone 15 Pro",
-      "displayName": "iPhone 15 Pro",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
-    },
-    {
-      "id": "apple-iphone-16",
-      "brand": "Apple",
-      "deviceType": "iPhone",
-      "kind": "phone",
-      "modelLabel": "iPhone 16",
-      "displayName": "iPhone 16",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
-    },
-    {
-      "id": "apple-iphone-16-pro",
-      "brand": "Apple",
-      "deviceType": "iPhone",
-      "kind": "phone",
-      "modelLabel": "iPhone 16 Pro",
-      "displayName": "iPhone 16 Pro",
+      "modelLabel": "iPhone 11 Pro",
+      "displayName": "iPhone 11 Pro",
       "modelCodes": [],
       "serviceAvailability": "unconfirmed",
       "approvedForBooking": false,
@@ -966,294 +966,6 @@
       ]
     },
     {
-      "id": "apple-iphone-se-2020",
-      "brand": "Apple",
-      "deviceType": "iPhone",
-      "kind": "phone",
-      "modelLabel": "iPhone SE (2020)",
-      "displayName": "iPhone SE (2020)",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
-    },
-    {
-      "id": "apple-iphone-se-2022",
-      "brand": "Apple",
-      "deviceType": "iPhone",
-      "kind": "phone",
-      "modelLabel": "iPhone SE (2022)",
-      "displayName": "iPhone SE (2022)",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
-    },
-    {
-      "id": "apple-iphone-xr",
-      "brand": "Apple",
-      "deviceType": "iPhone",
-      "kind": "phone",
-      "modelLabel": "iPhone XR",
-      "displayName": "iPhone XR",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
-    },
-    {
-      "id": "apple-iphone-xs",
-      "brand": "Apple",
-      "deviceType": "iPhone",
-      "kind": "phone",
-      "modelLabel": "iPhone XS",
-      "displayName": "iPhone XS",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
-    },
-    {
-      "id": "apple-iphone-xs-max",
-      "brand": "Apple",
-      "deviceType": "iPhone",
-      "kind": "phone",
-      "modelLabel": "iPhone XS Max",
-      "displayName": "iPhone XS Max",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
-    },
-    {
-      "id": "apple-iphone-11-pro",
-      "brand": "Apple",
-      "deviceType": "iPhone",
-      "kind": "phone",
-      "modelLabel": "iPhone 11 Pro",
-      "displayName": "iPhone 11 Pro",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
-    },
-    {
       "id": "apple-iphone-11-pro-max",
       "brand": "Apple",
       "deviceType": "iPhone",
@@ -1302,12 +1014,108 @@
       ]
     },
     {
+      "id": "apple-iphone-se-2020",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone SE (2020)",
+      "displayName": "iPhone SE (2020)",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
       "id": "apple-iphone-12-mini",
       "brand": "Apple",
       "deviceType": "iPhone",
       "kind": "phone",
       "modelLabel": "iPhone 12 mini",
       "displayName": "iPhone 12 mini",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "apple-iphone-12",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone 12",
+      "displayName": "iPhone 12",
       "modelCodes": [],
       "serviceAvailability": "unconfirmed",
       "approvedForBooking": false,
@@ -1494,6 +1302,54 @@
       ]
     },
     {
+      "id": "apple-iphone-13",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone 13",
+      "displayName": "iPhone 13",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
       "id": "apple-iphone-13-pro",
       "brand": "Apple",
       "deviceType": "iPhone",
@@ -1548,6 +1404,102 @@
       "kind": "phone",
       "modelLabel": "iPhone 13 Pro Max",
       "displayName": "iPhone 13 Pro Max",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "apple-iphone-se-2022",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone SE (2022)",
+      "displayName": "iPhone SE (2022)",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "apple-iphone-14",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone 14",
+      "displayName": "iPhone 14",
       "modelCodes": [],
       "serviceAvailability": "unconfirmed",
       "approvedForBooking": false,
@@ -1734,12 +1686,108 @@
       ]
     },
     {
+      "id": "apple-iphone-15",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone 15",
+      "displayName": "iPhone 15",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
       "id": "apple-iphone-15-plus",
       "brand": "Apple",
       "deviceType": "iPhone",
       "kind": "phone",
       "modelLabel": "iPhone 15 Plus",
       "displayName": "iPhone 15 Plus",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "apple-iphone-15-pro",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone 15 Pro",
+      "displayName": "iPhone 15 Pro",
       "modelCodes": [],
       "serviceAvailability": "unconfirmed",
       "approvedForBooking": false,
@@ -1830,60 +1878,12 @@
       ]
     },
     {
-      "id": "apple-iphone-16-plus",
+      "id": "apple-iphone-16",
       "brand": "Apple",
       "deviceType": "iPhone",
       "kind": "phone",
-      "modelLabel": "iPhone 16 Plus",
-      "displayName": "iPhone 16 Plus",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
-    },
-    {
-      "id": "apple-iphone-16-pro-max",
-      "brand": "Apple",
-      "deviceType": "iPhone",
-      "kind": "phone",
-      "modelLabel": "iPhone 16 Pro Max",
-      "displayName": "iPhone 16 Pro Max",
+      "modelLabel": "iPhone 16",
+      "displayName": "iPhone 16",
       "modelCodes": [],
       "serviceAvailability": "unconfirmed",
       "approvedForBooking": false,
@@ -12015,12 +12015,12 @@
       ]
     },
     {
-      "id": "apple-iphone-8",
+      "id": "apple-iphone-16-plus",
       "brand": "Apple",
       "deviceType": "iPhone",
       "kind": "phone",
-      "modelLabel": "iPhone 8",
-      "displayName": "iPhone 8",
+      "modelLabel": "iPhone 16 Plus",
+      "displayName": "iPhone 16 Plus",
       "modelCodes": [],
       "serviceAvailability": "unconfirmed",
       "approvedForBooking": false,
@@ -12063,12 +12063,12 @@
       ]
     },
     {
-      "id": "apple-iphone-8-plus",
+      "id": "apple-iphone-16-pro",
       "brand": "Apple",
       "deviceType": "iPhone",
       "kind": "phone",
-      "modelLabel": "iPhone 8 Plus",
-      "displayName": "iPhone 8 Plus",
+      "modelLabel": "iPhone 16 Pro",
+      "displayName": "iPhone 16 Pro",
       "modelCodes": [],
       "serviceAvailability": "unconfirmed",
       "approvedForBooking": false,
@@ -12111,12 +12111,12 @@
       ]
     },
     {
-      "id": "apple-iphone-x",
+      "id": "apple-iphone-16-pro-max",
       "brand": "Apple",
       "deviceType": "iPhone",
       "kind": "phone",
-      "modelLabel": "iPhone X",
-      "displayName": "iPhone X",
+      "modelLabel": "iPhone 16 Pro Max",
+      "displayName": "iPhone 16 Pro Max",
       "modelCodes": [],
       "serviceAvailability": "unconfirmed",
       "approvedForBooking": false,
