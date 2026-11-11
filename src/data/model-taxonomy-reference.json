@@ -1930,7 +1930,7 @@
       "brand": "Apple",
       "deviceType": "iPad",
       "kind": "tablet",
-      "modelLabel": "Air · 5th gen (A2588)",
+      "modelLabel": "Air \u00b7 5th gen (A2588)",
       "displayName": "iPad Air 5th gen (A2588)",
       "modelCodes": [
         "A2588"
@@ -1980,7 +1980,7 @@
       "brand": "Apple",
       "deviceType": "iPad",
       "kind": "tablet",
-      "modelLabel": "mini · 6th gen (A2567)",
+      "modelLabel": "mini \u00b7 6th gen (A2567)",
       "displayName": "iPad mini 6th gen (A2567)",
       "modelCodes": [
         "A2567"
@@ -7314,8 +7314,8 @@
       "brand": "Apple",
       "deviceType": "iPad",
       "kind": "tablet",
-      "modelLabel": "Pro 12.9-inch · 5th gen (A2378)",
-      "displayName": "iPad Pro 12.9-inch · 5th gen (A2378)",
+      "modelLabel": "Pro 12.9-inch \u00b7 5th gen (A2378)",
+      "displayName": "iPad Pro 12.9-inch \u00b7 5th gen (A2378)",
       "modelCodes": [
         "A2378"
       ],
@@ -12001,6 +12001,150 @@
         {
           "id": "trackpad",
           "name": "Trackpad repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "apple-iphone-8",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone 8",
+      "displayName": "iPhone 8",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "apple-iphone-8-plus",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone 8 Plus",
+      "displayName": "iPhone 8 Plus",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "apple-iphone-x",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone X",
+      "displayName": "iPhone X",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
           "pricePence": null,
           "durationMinutes": null,
           "availability": "unconfirmed"
