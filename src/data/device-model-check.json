@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-11-11",
+  "scope": "Apple iPhone and Samsung phone reference models; enquiry-only, not approved services.",
+  "sources": {
+    "Apple": [
+      "https://www.apple.com/uk/iphone/compare/"
+    ],
+    "Samsung": [
+      "https://www.samsung.com/uk/smartphones/",
+      "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+      "https://www.samsung.com/us/support/answer/ANS10010489/",
+      "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+    ]
+  },
+  "addedModels": [
+    "iPhone 16e",
+    "iPhone 17",
+    "iPhone Air",
+    "iPhone 17 Pro",
+    "iPhone 17 Pro Max",
+    "iPhone 17e",
+    "iPhone 18 Pro",
+    "iPhone 18 Pro Max",
+    "iPhone Duo",
+    "Galaxy S23 FE",
+    "Galaxy S24 FE",
+    "Galaxy S25",
+    "Galaxy S25 Plus",
+    "Galaxy S25 Ultra",
+    "Galaxy S25 Edge",
+    "Galaxy S25 FE",
+    "Galaxy S26",
+    "Galaxy S26 Plus",
+    "Galaxy S26 Ultra",
+    "Galaxy S26 FE",
+    "Galaxy Z Flip7",
+    "Galaxy Z Flip7 FE",
+    "Galaxy Z Fold7",
+    "Galaxy Z TriFold",
+    "Galaxy Z Flip8",
+    "Galaxy Z Fold8",
+    "Galaxy Z Fold8 Ultra",
+    "Galaxy A16",
+    "Galaxy A16 5G",
+    "Galaxy A17",
+    "Galaxy A17 5G",
+    "Galaxy A26 5G",
+    "Galaxy A36 5G",
+    "Galaxy A56 5G",
+    "Galaxy A27 5G",
+    "Galaxy A37 5G",
+    "Galaxy A57 5G",
+    "Galaxy A07",
+    "Galaxy XCover7 Pro"
+  ]
+}

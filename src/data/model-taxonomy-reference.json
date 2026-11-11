@@ -486,6 +486,102 @@
       ]
     },
     {
+      "id": "samsung-galaxy-s20",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy S20",
+      "displayName": "Galaxy S20",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "samsung-galaxy-s20-fe",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy S20 FE",
+      "displayName": "Galaxy S20 FE",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
       "id": "samsung-galaxy-s21",
       "brand": "Samsung",
       "deviceType": "Phone",
@@ -534,12 +630,12 @@
       ]
     },
     {
-      "id": "samsung-galaxy-s22",
+      "id": "samsung-galaxy-s21-ultra",
       "brand": "Samsung",
       "deviceType": "Phone",
       "kind": "phone",
-      "modelLabel": "Galaxy S22",
-      "displayName": "Galaxy S22",
+      "modelLabel": "Galaxy S21 Ultra",
+      "displayName": "Galaxy S21 Ultra",
       "modelCodes": [],
       "serviceAvailability": "unconfirmed",
       "approvedForBooking": false,
@@ -582,108 +678,12 @@
       ]
     },
     {
-      "id": "samsung-galaxy-s23",
+      "id": "samsung-galaxy-s21-fe",
       "brand": "Samsung",
       "deviceType": "Phone",
       "kind": "phone",
-      "modelLabel": "Galaxy S23",
-      "displayName": "Galaxy S23",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
-    },
-    {
-      "id": "samsung-galaxy-s24",
-      "brand": "Samsung",
-      "deviceType": "Phone",
-      "kind": "phone",
-      "modelLabel": "Galaxy S24",
-      "displayName": "Galaxy S24",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
-    },
-    {
-      "id": "samsung-galaxy-a54",
-      "brand": "Samsung",
-      "deviceType": "Phone",
-      "kind": "phone",
-      "modelLabel": "Galaxy A54",
-      "displayName": "Galaxy A54",
+      "modelLabel": "Galaxy S21 FE",
+      "displayName": "Galaxy S21 FE",
       "modelCodes": [],
       "serviceAvailability": "unconfirmed",
       "approvedForBooking": false,
@@ -2026,156 +2026,12 @@
       ]
     },
     {
-      "id": "samsung-galaxy-s20",
+      "id": "samsung-galaxy-s22",
       "brand": "Samsung",
       "deviceType": "Phone",
       "kind": "phone",
-      "modelLabel": "Galaxy S20",
-      "displayName": "Galaxy S20",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
-    },
-    {
-      "id": "samsung-galaxy-s20-fe",
-      "brand": "Samsung",
-      "deviceType": "Phone",
-      "kind": "phone",
-      "modelLabel": "Galaxy S20 FE",
-      "displayName": "Galaxy S20 FE",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
-    },
-    {
-      "id": "samsung-galaxy-s21-fe",
-      "brand": "Samsung",
-      "deviceType": "Phone",
-      "kind": "phone",
-      "modelLabel": "Galaxy S21 FE",
-      "displayName": "Galaxy S21 FE",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
-    },
-    {
-      "id": "samsung-galaxy-s21-ultra",
-      "brand": "Samsung",
-      "deviceType": "Phone",
-      "kind": "phone",
-      "modelLabel": "Galaxy S21 Ultra",
-      "displayName": "Galaxy S21 Ultra",
+      "modelLabel": "Galaxy S22",
+      "displayName": "Galaxy S22",
       "modelCodes": [],
       "serviceAvailability": "unconfirmed",
       "approvedForBooking": false,
@@ -2314,12 +2170,12 @@
       ]
     },
     {
-      "id": "samsung-galaxy-s23-plus",
+      "id": "samsung-galaxy-z-flip4",
       "brand": "Samsung",
       "deviceType": "Phone",
       "kind": "phone",
-      "modelLabel": "Galaxy S23 Plus",
-      "displayName": "Galaxy S23 Plus",
+      "modelLabel": "Galaxy Z Flip4",
+      "displayName": "Galaxy Z Flip4",
       "modelCodes": [],
       "serviceAvailability": "unconfirmed",
       "approvedForBooking": false,
@@ -2362,108 +2218,12 @@
       ]
     },
     {
-      "id": "samsung-galaxy-s23-ultra",
+      "id": "samsung-galaxy-z-fold4",
       "brand": "Samsung",
       "deviceType": "Phone",
       "kind": "phone",
-      "modelLabel": "Galaxy S23 Ultra",
-      "displayName": "Galaxy S23 Ultra",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
-    },
-    {
-      "id": "samsung-galaxy-s24-plus",
-      "brand": "Samsung",
-      "deviceType": "Phone",
-      "kind": "phone",
-      "modelLabel": "Galaxy S24 Plus",
-      "displayName": "Galaxy S24 Plus",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
-    },
-    {
-      "id": "samsung-galaxy-s24-ultra",
-      "brand": "Samsung",
-      "deviceType": "Phone",
-      "kind": "phone",
-      "modelLabel": "Galaxy S24 Ultra",
-      "displayName": "Galaxy S24 Ultra",
+      "modelLabel": "Galaxy Z Fold4",
+      "displayName": "Galaxy Z Fold4",
       "modelCodes": [],
       "serviceAvailability": "unconfirmed",
       "approvedForBooking": false,
@@ -2698,6 +2458,459 @@
       ]
     },
     {
+      "id": "samsung-galaxy-a54",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy A54",
+      "displayName": "Galaxy A54",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "samsung-galaxy-s23",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy S23",
+      "displayName": "Galaxy S23",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "samsung-galaxy-s23-fe",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy S23 FE",
+      "displayName": "Galaxy S23 FE",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-s23-plus",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy S23 Plus",
+      "displayName": "Galaxy S23 Plus",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "samsung-galaxy-s23-ultra",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy S23 Ultra",
+      "displayName": "Galaxy S23 Ultra",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "samsung-galaxy-z-flip5",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy Z Flip5",
+      "displayName": "Galaxy Z Flip5",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "samsung-galaxy-z-fold5",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy Z Fold5",
+      "displayName": "Galaxy Z Fold5",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "samsung-galaxy-a16",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy A16",
+      "displayName": "Galaxy A16",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-a16-5g",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy A16 5G",
+      "displayName": "Galaxy A16 5G",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
       "id": "samsung-galaxy-a35",
       "brand": "Samsung",
       "deviceType": "Phone",
@@ -2794,12 +3007,12 @@
       ]
     },
     {
-      "id": "samsung-galaxy-z-flip4",
+      "id": "samsung-galaxy-s24",
       "brand": "Samsung",
       "deviceType": "Phone",
       "kind": "phone",
-      "modelLabel": "Galaxy Z Flip4",
-      "displayName": "Galaxy Z Flip4",
+      "modelLabel": "Galaxy S24",
+      "displayName": "Galaxy S24",
       "modelCodes": [],
       "serviceAvailability": "unconfirmed",
       "approvedForBooking": false,
@@ -2842,12 +3055,12 @@
       ]
     },
     {
-      "id": "samsung-galaxy-z-flip5",
+      "id": "samsung-galaxy-s24-fe",
       "brand": "Samsung",
       "deviceType": "Phone",
       "kind": "phone",
-      "modelLabel": "Galaxy Z Flip5",
-      "displayName": "Galaxy Z Flip5",
+      "modelLabel": "Galaxy S24 FE",
+      "displayName": "Galaxy S24 FE",
       "modelCodes": [],
       "serviceAvailability": "unconfirmed",
       "approvedForBooking": false,
@@ -2887,199 +3100,14 @@
           "durationMinutes": null,
           "availability": "unconfirmed"
         }
-      ]
-    },
-    {
-      "id": "samsung-galaxy-z-flip6",
-      "brand": "Samsung",
-      "deviceType": "Phone",
-      "kind": "phone",
-      "modelLabel": "Galaxy Z Flip6",
-      "displayName": "Galaxy Z Flip6",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
-    },
-    {
-      "id": "samsung-galaxy-z-fold4",
-      "brand": "Samsung",
-      "deviceType": "Phone",
-      "kind": "phone",
-      "modelLabel": "Galaxy Z Fold4",
-      "displayName": "Galaxy Z Fold4",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
-    },
-    {
-      "id": "samsung-galaxy-z-fold5",
-      "brand": "Samsung",
-      "deviceType": "Phone",
-      "kind": "phone",
-      "modelLabel": "Galaxy Z Fold5",
-      "displayName": "Galaxy Z Fold5",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
-    },
-    {
-      "id": "samsung-galaxy-z-fold6",
-      "brand": "Samsung",
-      "deviceType": "Phone",
-      "kind": "phone",
-      "modelLabel": "Galaxy Z Fold6",
-      "displayName": "Galaxy Z Fold6",
-      "modelCodes": [],
-      "serviceAvailability": "unconfirmed",
-      "approvedForBooking": false,
-      "repairs": [
-        {
-          "id": "screen",
-          "name": "Screen replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "battery",
-          "name": "Battery replacement",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "port",
-          "name": "Charging port",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "camera",
-          "name": "Camera repair",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        },
-        {
-          "id": "diagnostic",
-          "name": "Fault diagnosis",
-          "pricePence": null,
-          "durationMinutes": null,
-          "availability": "unconfirmed"
-        }
-      ]
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
     },
     {
       "id": "google-pixel-6",
@@ -12157,6 +12185,2096 @@
           "availability": "unconfirmed"
         }
       ]
+    },
+    {
+      "id": "apple-iphone-16e",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone 16e",
+      "displayName": "iPhone 16e",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.apple.com/uk/iphone/compare/"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "apple-iphone-17",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone 17",
+      "displayName": "iPhone 17",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.apple.com/uk/iphone/compare/"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "apple-iphone-air",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone Air",
+      "displayName": "iPhone Air",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.apple.com/uk/iphone/compare/"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "apple-iphone-17-pro",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone 17 Pro",
+      "displayName": "iPhone 17 Pro",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.apple.com/uk/iphone/compare/"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "apple-iphone-17-pro-max",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone 17 Pro Max",
+      "displayName": "iPhone 17 Pro Max",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.apple.com/uk/iphone/compare/"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "apple-iphone-17e",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone 17e",
+      "displayName": "iPhone 17e",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.apple.com/uk/iphone/compare/"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "apple-iphone-18-pro",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone 18 Pro",
+      "displayName": "iPhone 18 Pro",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.apple.com/uk/iphone/compare/"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "apple-iphone-18-pro-max",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone 18 Pro Max",
+      "displayName": "iPhone 18 Pro Max",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.apple.com/uk/iphone/compare/"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "apple-iphone-duo",
+      "brand": "Apple",
+      "deviceType": "iPhone",
+      "kind": "phone",
+      "modelLabel": "iPhone Duo",
+      "displayName": "iPhone Duo",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.apple.com/uk/iphone/compare/"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-s24-plus",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy S24 Plus",
+      "displayName": "Galaxy S24 Plus",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "samsung-galaxy-s24-ultra",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy S24 Ultra",
+      "displayName": "Galaxy S24 Ultra",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "samsung-galaxy-z-flip6",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy Z Flip6",
+      "displayName": "Galaxy Z Flip6",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "samsung-galaxy-z-fold6",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy Z Fold6",
+      "displayName": "Galaxy Z Fold6",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ]
+    },
+    {
+      "id": "samsung-galaxy-a07",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy A07",
+      "displayName": "Galaxy A07",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-a17",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy A17",
+      "displayName": "Galaxy A17",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-a17-5g",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy A17 5G",
+      "displayName": "Galaxy A17 5G",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-a26-5g",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy A26 5G",
+      "displayName": "Galaxy A26 5G",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-a36-5g",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy A36 5G",
+      "displayName": "Galaxy A36 5G",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-a56-5g",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy A56 5G",
+      "displayName": "Galaxy A56 5G",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-s25",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy S25",
+      "displayName": "Galaxy S25",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-s25-edge",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy S25 Edge",
+      "displayName": "Galaxy S25 Edge",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-s25-fe",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy S25 FE",
+      "displayName": "Galaxy S25 FE",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-s25-plus",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy S25 Plus",
+      "displayName": "Galaxy S25 Plus",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-s25-ultra",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy S25 Ultra",
+      "displayName": "Galaxy S25 Ultra",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-xcover7-pro",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy XCover7 Pro",
+      "displayName": "Galaxy XCover7 Pro",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-z-flip7",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy Z Flip7",
+      "displayName": "Galaxy Z Flip7",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-z-flip7-fe",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy Z Flip7 FE",
+      "displayName": "Galaxy Z Flip7 FE",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-z-fold7",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy Z Fold7",
+      "displayName": "Galaxy Z Fold7",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-z-trifold",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy Z TriFold",
+      "displayName": "Galaxy Z TriFold",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-a27-5g",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy A27 5G",
+      "displayName": "Galaxy A27 5G",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-a37-5g",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy A37 5G",
+      "displayName": "Galaxy A37 5G",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-a57-5g",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy A57 5G",
+      "displayName": "Galaxy A57 5G",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-s26",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy S26",
+      "displayName": "Galaxy S26",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-s26-fe",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy S26 FE",
+      "displayName": "Galaxy S26 FE",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-s26-plus",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy S26 Plus",
+      "displayName": "Galaxy S26 Plus",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-s26-ultra",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy S26 Ultra",
+      "displayName": "Galaxy S26 Ultra",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-z-flip8",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy Z Flip8",
+      "displayName": "Galaxy Z Flip8",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-z-fold8",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy Z Fold8",
+      "displayName": "Galaxy Z Fold8",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
+    },
+    {
+      "id": "samsung-galaxy-z-fold8-ultra",
+      "brand": "Samsung",
+      "deviceType": "Phone",
+      "kind": "phone",
+      "modelLabel": "Galaxy Z Fold8 Ultra",
+      "displayName": "Galaxy Z Fold8 Ultra",
+      "modelCodes": [],
+      "serviceAvailability": "unconfirmed",
+      "approvedForBooking": false,
+      "repairs": [
+        {
+          "id": "screen",
+          "name": "Screen replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "port",
+          "name": "Charging port",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "camera",
+          "name": "Camera repair",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        },
+        {
+          "id": "diagnostic",
+          "name": "Fault diagnosis",
+          "pricePence": null,
+          "durationMinutes": null,
+          "availability": "unconfirmed"
+        }
+      ],
+      "modelSourceUrls": [
+        "https://www.samsung.com/uk/smartphones/",
+        "https://www.samsung.com/global/sustainability/policy-file/AYVhR1k6BicAIx95/LCA%20Results%20for%20Smart%20phones_0222.pdf",
+        "https://www.samsung.com/us/support/answer/ANS10010489/",
+        "https://images.samsung.com/is/content/samsung/assets/ua/offer/starlink-direct-to-cell/SKU.pdf"
+      ],
+      "modelVerifiedAt": "2026-11-11"
     }
   ]
 }
