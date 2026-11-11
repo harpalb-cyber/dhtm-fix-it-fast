@@ -266,14 +266,15 @@ html[data-theme=rounded] .location-panel h4 { margin-top:28px; }
 .quality-options label.is-selected { border-color:hsl(var(--primary)); background:hsl(var(--primary) / .07); color:hsl(var(--link)); }
 .quality-options input { width:13px; height:13px; min-height:0; accent-color:hsl(var(--primary)); }
 
-/* Small screens: phone artwork stays behind the copy, with the white reading fade. */
-@media(max-width:767px) {
-  .home-hero .hero-layout { position:relative; isolation:isolate; display:grid; grid-template-columns:1fr; gap:0; min-height:0; padding-block:40px 170px; }
-  .home-hero .hero-copy { position:relative; z-index:2; }
-  .home-hero .hero-copy h1,.home-hero .hero-copy > p,.home-hero .hero-copy .hero-note { text-shadow:0 0 9px #f5f7fb,0 0 20px #f5f7fb; }
-  .home-hero .hero-art { position:absolute; inset:0; z-index:0; width:auto; margin:0; overflow:hidden; }
-  .home-hero .hero-art > img { position:absolute; left:0; right:0; bottom:10%; top:auto; width:100%; height:auto; max-width:100%; max-height:none; object-fit:contain; }
-  .home-hero .hero-art::after { content:''; position:absolute; inset:0; pointer-events:none; background:linear-gradient(180deg,#f5f7fb 0%,rgba(245,247,251,.97) 22%,rgba(245,247,251,.92) 40%,rgba(245,247,251,.8) 58%,rgba(245,247,251,.66) 76%,rgba(245,247,251,.46) 100%); }
+/* Tablet and mobile: one compact hero, with artwork behind the copy. */
+@media(max-width:1099px) {
+  .home-hero .hero-layout { position:relative; isolation:isolate; display:block; min-height:0; padding-block:36px 28px; }
+  .home-hero .hero-copy { position:relative; z-index:2; max-width:440px; }
+  html[data-theme=rounded] .home-hero .hero-copy h1 { font-size:clamp(40px,5vw,58px); }
+  .home-hero .hero-copy > p { margin-block:22px; }
+  .home-hero .hero-copy .hero-note { margin-bottom:0; }
+  .home-hero .hero-art { position:absolute; inset:0 -24px; z-index:0; width:auto; height:100%; margin:0; overflow:hidden; animation:none; }
+  .home-hero .hero-art > img { position:absolute; top:0; bottom:auto; left:auto; right:clamp(-72px,-6vw,-20px); width:auto; height:100%; max-width:none; max-height:none; object-fit:contain; }
+  .home-hero .hero-art::after { content:''; position:absolute; inset:0; pointer-events:none; background:linear-gradient(90deg,rgba(245,247,251,.98) 0%,rgba(245,247,251,.92) 24%,rgba(245,247,251,.62) 60%,rgba(245,247,251,.18) 100%); }
   .home-hero .hero-art .art-caption { display:none; }
 }
-@media(max-width:359px) { .home-hero .hero-layout { padding-block:34px 150px; } }
