@@ -6,12 +6,12 @@ import { Sheet, SheetContent, SheetTitle, SheetDescription, SheetTrigger } from 
 import { Artwork, WhatsAppButton } from "@/components/customer/Shared";
 
 const links = [
-  { name: "Repairs", path: "/repairs", sections: [["Find your device", "/repairs"], ["Microsoldering", "/services/microsoldering"], ["Laptop & computer repairs", "/services/computer-repairs"], ["Console repairs & upgrades", "/services/console-repairs"], ["Ask for a repair update", "/track-repair"]] },
+  { name: "Repairs", path: "/repairs", sections: [["iPhone repairs", "/repairs?brand=Apple&family=phone"], ["Samsung repairs", "/repairs?brand=Samsung&family=phone"], ["Google repairs", "/repairs?brand=Google&family=phone"], ["Microsoldering", "/services/microsoldering"], ["Laptop & computer repairs", "/services/computer-repairs"], ["Gaming consoles & controllers", "/services/console-repairs"], ["Ask for a repair update", "/track-repair"]] },
   { name: "Shop", path: "/shop", sections: [["All products", "/shop"], ["Phones", "/shop?category=phones"], ["Tablets", "/shop?category=tablets"], ["Chargers", "/shop?category=chargers"], ["Cases & accessories", "/shop?category=accessories"]] },
-  { name: "Sell your device", path: "/sell", sections: [["Device details & photos", "/sell#book"]] },
-  { name: "Postal repairs", path: "/postal-repairs", sections: [["How postal repairs work", "/postal-repairs"], ["Arrange a postal repair", "/contact?context=Postal%20repair#book"]] },
+  { name: "Sell your device", path: "/sell", sections: [["Sell a phone or device", "/sell"], ["Your device details", "/sell#sell-device-details"], ["Add device photos", "/sell#device-photos"]] },
+  { name: "Postal repairs", path: "/postal-repairs", sections: [["How postal repairs work", "/postal-repairs"], ["Packing & postage", "/postal-repairs#postal-steps"], ["Arrange a postal repair", "/contact?context=Postal%20repair#book"]] },
   { name: "Training", path: "/training/mobile-phone-repair-course", sections: [["About the course", "/training/mobile-phone-repair-course"], ["Course content", "/training/mobile-phone-repair-course#course-content"], ["Training enquiry", "/training/mobile-phone-repair-course#training-enquiry"]] },
-  { name: "Contact", path: "/contact", sections: [["Send an enquiry", "/contact#book"], ["Find the shop", "/contact"], ["Customer help", "/help"], ["About DHT", "/about"]] },
+  { name: "Contact", path: "/contact", sections: [["Send an enquiry", "/contact#book"], ["Find the shop & opening hours", "/contact#shop-location"], ["Customer help", "/help"], ["About DHT", "/about"]] },
 ];
 export default function Header() {
   const [open, setOpen] = useState(false);
