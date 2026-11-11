@@ -1,3 +1,4 @@
+import { phoneError } from "./customer-services";
 /** Owner-confirmed course facts. Commercial fields stay null until DHT approves them. */
 export const trainingCourse = {
   id: "beginner-phone-repair",
@@ -26,7 +27,7 @@ export function trainingErrors(f: TrainingForm) {
   return {
     name: f.name.trim() ? "" : "Please enter your full name.",
     email: /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(f.email.trim()) ? "" : "Please enter a valid email address.",
-    phone: f.phone.replace(/\D/g, "").length >= 10 ? "" : "Please enter a phone number so we can call you back.",
+    phone: phoneError(f.phone),
   };
 }
 

@@ -36,10 +36,15 @@ export function filterProducts(products: Product[], filters: { search: string; c
     (filters.category === "all" || p.category === filters.category) && (filters.brand === "all" || p.brand === filters.brand) && (filters.condition === "all" || p.condition === filters.condition));
   return result.sort((a, b) => filters.sort === "price-low" ? a.pricePence - b.pricePence : filters.sort === "price-high" ? b.pricePence - a.pricePence : a.name.localeCompare(b.name));
 }
-export function enquiryErrors(fields: { name: string; email: string; message: string }) {
+export function phoneError(phone: string) {
+  const digits = phone.replace(/\D/g, "");
+  return /^[+\d\s().-]+$/.test(phone.trim()) && digits.length >= 10 && digits.length <= 15 ? "" : "Please enter a valid phone number so we can contact you.";
+}
+export function enquiryErrors(fields: { name: string; email: string; phone: string; message: string }) {
   return {
     name: fields.name.trim() ? "" : "Please enter your name.",
     email: /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(fields.email.trim()) ? "" : "Please enter a valid email address.",
+    phone: phoneError(fields.phone),
     message: fields.message.trim() ? "" : "Please tell us what you need help with.",
   };
 }

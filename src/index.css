@@ -274,7 +274,7 @@ html[data-theme=rounded] .location-panel h4 { margin-top:28px; }
   .home-hero .hero-copy > p { margin-block:22px; }
   .home-hero .hero-copy .hero-note { margin-bottom:0; }
   .home-hero .hero-art { position:absolute; inset:0 -24px; z-index:0; width:auto; height:100%; margin:0; overflow:hidden; animation:none; }
-  .home-hero .hero-art > img { position:absolute; top:0; bottom:auto; left:auto; right:clamp(-72px,-6vw,-20px); width:auto; height:100%; max-width:none; max-height:none; object-fit:contain; }
+  .home-hero .hero-art > img { position:absolute; top:50%; bottom:auto; left:auto; right:clamp(-100px,-8vw,-28px); width:clamp(480px,calc(70vw + 300px),1100px); height:auto; max-width:none; max-height:none; object-fit:contain; transform:translateY(-50%); }
   .home-hero .hero-art::after { content:''; position:absolute; inset:0; pointer-events:none; background:linear-gradient(90deg,rgba(245,247,251,.98) 0%,rgba(245,247,251,.92) 24%,rgba(245,247,251,.62) 60%,rgba(245,247,251,.18) 100%); }
   .home-hero .hero-art .art-caption { display:none; }
 }

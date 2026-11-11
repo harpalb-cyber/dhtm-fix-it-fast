@@ -1,5 +1,6 @@
 import { supabase } from "@/integrations/supabase/client";
 import { repairQualities } from "./repair-quality";
+import { phoneError } from "./customer-services";
 import type { Device, Product } from "@/lib/customer-services";
 
 export type EnquiryKind = "contact" | "repair" | "sell" | "shop" | "postal" | "tracking";
@@ -28,7 +29,9 @@ export async function loadDeviceWithPrices(device: Device): Promise<Device> {
   };
 }
 
-export async function submitEnquiry(e: { kind: EnquiryKind; name: string; email: string; phone?: string; device?: string; device_condition?: string; context?: string; message: string; photo_paths?: string[] }) {
+export async function submitEnquiry(e: { kind: EnquiryKind; name: string; email: string; phone: string; device?: string; device_condition?: string; context?: string; message: string; photo_paths?: string[] }) {
+  const invalidPhone = phoneError(e.phone);
+  if (invalidPhone) throw new Error(invalidPhone);
   const { error } = await supabase.from("enquiries").insert({
     kind: e.kind, name: e.name.trim().slice(0, 100), email: e.email.trim().slice(0, 255), phone: (e.phone || "").trim().slice(0, 30),
     device: (e.device || "").trim().slice(0, 200), device_condition: (e.device_condition || "").slice(0, 50),

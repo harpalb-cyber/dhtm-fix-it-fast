@@ -14,7 +14,7 @@ describe("DHT launch boundaries", () => {
   test("automatic valuation is disabled", () => { expect(launch.sellDevice.instantValuation).toBe(false); });
   test("publication remains owner controlled", () => { expect(launch.publishAutomatically).toBe(false); });
   test("email fallback safely encodes the repair context", () => { const url = new URL(emailDraftUrl("Repair & quote", "Apple iPhone 15\nScreen & battery")); expect(url.protocol).toBe("mailto:"); expect(url.searchParams.get("body")).toBe("Apple iPhone 15\nScreen & battery"); });
-  test("enquiries reject missing name, email and message", () => { expect(Object.values(enquiryErrors({ name: "", email: "invalid", message: " " })).every(Boolean)).toBe(true); expect(Object.values(enquiryErrors({ name: "Test", email: "test@example.com", message: "Quote please" })).every(v => !v)).toBe(true); });
+  test("enquiries reject missing name, email and message", () => { expect(Object.values(enquiryErrors({ name: "", email: "invalid", phone: "", message: " " })).every(Boolean)).toBe(true); expect(Object.values(enquiryErrors({ name: "Test", email: "test@example.com", phone: "07700 900123", message: "Quote please" })).every(v => !v)).toBe(true); });
 });
 test("shop filters combine and prices sort", () => {
   const base = { category: "phones", brand: "Apple", condition: "refurbished", imageUrl: "", specifications: [], stock: 1 };
@@ -36,4 +36,10 @@ describe("sell photo limits", () => {
   test("rejects over 10MB", () => expect(photoError({ type: "image/png", size: 10 * 1024 * 1024 + 1, name: "a.png" }, 0)).not.toBe(""));
   test("rejects a 7th photo", () => expect(photoError({ type: "image/png", size: 100, name: "a.png" }, 6)).not.toBe(""));
   test("rejects pdf", () => expect(photoError({ type: "application/pdf", size: 100, name: "a.pdf" }, 0)).not.toBe(""));
+});
+
+import { phoneError } from "./customer-services";
+test("enquiries require a usable callback number", () => {
+  for (const phone of ["", "   ", "123", "call me 07700900123", "1234567890123456"]) expect(phoneError(phone)).not.toBe("");
+  for (const phone of ["07700 900123", "+44 (7700) 900123"]) expect(phoneError(phone)).toBe("");
 });
