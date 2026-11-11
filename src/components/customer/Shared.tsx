@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Send, ArrowUpRight, MapPin, MessageCircle } from "lucide-react";
+import { Phone, Send, ArrowUpRight, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion";
 import { assets } from "@/assets/dht";
@@ -13,7 +13,7 @@ export function PageIntro({ title, description }: { title: string; description: 
   return <section className="page-intro"><div className="site-container"><h1>{title}</h1><p>{description}</p></div></section>;
 }
 export function WhatsAppButton({ text, label = "Message us on WhatsApp", className = "" }: { text?: string; label?: string; className?: string }) {
-  return <Button asChild className={`whatsapp-btn ${className}`}><a href={whatsappUrl(text)} target="_blank" rel="noreferrer"><MessageCircle />{label}</a></Button>;
+  return <Button asChild className={`whatsapp-btn ${className}`}><a href={whatsappUrl(text)} target="_blank" rel="noreferrer"><img src="/assets/whatsapp.svg" alt="" width="24" height="24" className="whatsapp-logo" aria-hidden="true" />{label}</a></Button>;
 }
 export function ContactActions({ subject = "DHT Mobiles enquiry", body = "" }: { subject?: string; body?: string }) {
   const path = /sell/i.test(subject) ? "/sell" : "/contact";
