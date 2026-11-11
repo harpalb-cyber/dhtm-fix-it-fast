@@ -265,3 +265,14 @@ html[data-theme=rounded] .location-panel h4 { margin-top:28px; }
 .quality-options label { display:flex; align-items:center; gap:6px; padding:8px 10px; border:1px solid hsl(var(--border)); border-radius:10px; background:hsl(var(--background)); cursor:pointer; font-size:12px; }
 .quality-options label.is-selected { border-color:hsl(var(--primary)); background:hsl(var(--primary) / .07); color:hsl(var(--link)); }
 .quality-options input { width:13px; height:13px; min-height:0; accent-color:hsl(var(--primary)); }
+
+/* Keep the homepage artwork in the same layer as the copy on mobile. */
+@media(max-width:767px) {
+  .home-hero .hero-layout { position:relative; isolation:isolate; display:block; padding-block:48px 36px; }
+  .home-hero .hero-copy { position:relative; z-index:2; }
+  .home-hero .hero-art { position:absolute; inset:0 -24px; width:auto; height:100%; margin:0; overflow:hidden; z-index:0; animation:none; }
+  .home-hero .hero-art > img { position:absolute; top:0; right:-30%; width:140%; height:100%; max-width:none; max-height:none; object-fit:cover; object-position:58% center; }
+  .home-hero .hero-art::after { content:''; position:absolute; inset:0; pointer-events:none; background:linear-gradient(90deg,#f5f7fb 0%,rgba(245,247,251,.94) 18%,rgba(245,247,251,.73) 55%,rgba(245,247,251,.35) 100%),linear-gradient(0deg,rgba(245,247,251,.82),transparent 65%); }
+  .home-hero .hero-art .art-caption { display:none; }
+  .home-hero .hero-copy > p { max-width:340px; }
+}
