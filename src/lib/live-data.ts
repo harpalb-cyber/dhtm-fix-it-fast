@@ -1,4 +1,5 @@
 import { supabase } from "@/integrations/supabase/client";
+import { repairQualities } from "./repair-quality";
 import type { Device, Product } from "@/lib/customer-services";
 
 export type EnquiryKind = "contact" | "repair" | "sell" | "shop" | "postal" | "tracking";
@@ -22,8 +23,8 @@ export async function loadDeviceWithPrices(device: Device): Promise<Device> {
   return {
     ...device,
     repairs: device.repairs
-      .filter(r => byRepair.get(r.id)?.available !== false)
-      .map(r => { const o = byRepair.get(r.id); return o ? { ...r, pricePence: o.price_pence, durationMinutes: o.duration_minutes } : r; }),
+      .filter(r => r.id === "diagnostic" || byRepair.get(r.id)?.available !== false)
+      .map(r => { const o = byRepair.get(r.id); return { ...r, ...(o ? {pricePence: o.price_pence, durationMinutes: o.duration_minutes} : {}), qualityPrices: Object.fromEntries((repairQualities[r.id] || []).map(q => { const row = byRepair.get(`${r.id}:${q.toLowerCase()}`); return [q, row?.available !== false ? row?.price_pence ?? null : null]; })) }; }),
   };
 }
 

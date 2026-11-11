@@ -252,3 +252,16 @@ html[data-theme=rounded] .location-panel h4 { margin-top:28px; }
 .repair-options .repair-option > span { min-width:0; }
 .repair-options .repair-option .repair-price { grid-column:2; text-align:left; max-width:none; font-size:12px; color:hsl(var(--link)); }
 @media(max-width:600px) { .repair-choice-grid,.repair-options { grid-template-columns:1fr; } .repair-choice:last-child { grid-column:auto; } .repair-choice { padding:18px; } }
+
+.repair-options .quality-repair { display:flex; flex-direction:column; align-items:stretch; gap:14px; }
+.repair-option-main { display:flex; gap:12px; align-items:flex-start; cursor:pointer; font-size:14px; }
+.repair-option-main > button { flex-shrink:0; margin-top:3px; }
+.repair-option-main > span { min-width:0; }
+.repair-option-main small { display:block; font-size:11px; font-weight:400; margin-top:5px; color:hsl(var(--muted-foreground)); }
+.quality-price { font-size:14px; color:hsl(var(--link)); }
+.quality-options { border:0; padding:0; margin-top:auto; min-width:0; }
+.quality-options legend { font-size:12px; font-weight:600; margin-bottom:9px; }
+.quality-options > div { display:flex; gap:6px; flex-wrap:wrap; }
+.quality-options label { display:flex; align-items:center; gap:6px; padding:8px 10px; border:1px solid hsl(var(--border)); border-radius:10px; background:hsl(var(--background)); cursor:pointer; font-size:12px; }
+.quality-options label.is-selected { border-color:hsl(var(--primary)); background:hsl(var(--primary) / .07); color:hsl(var(--link)); }
+.quality-options input { width:13px; height:13px; min-height:0; accent-color:hsl(var(--primary)); }

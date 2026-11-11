@@ -10,12 +10,12 @@ export const whatsappNumber = "07935434058";
 export const whatsappUrl = (text = "Hi DHT Mobiles, I have a question.") =>
   `https://wa.me/447935434058?text=${encodeURIComponent(text)}`;
 
-export interface RepairItem { id: string; name: string; pricePence: number | null; durationMinutes: number | null; availability: string }
+export interface RepairItem { id: string; name: string; pricePence: number | null; durationMinutes: number | null; availability: string; qualityPrices?: Record<string, number | null> }
 export interface Device { id: string; brand: string; deviceType: string; kind: string; modelLabel: string; displayName: string; modelCodes: string[]; repairs: RepairItem[]; approvedForBooking: boolean }
-export function estimateRepairs(items: Pick<RepairItem, "pricePence">[]) {
+export function estimateRepairs(items: (Pick<RepairItem, "pricePence"> & { isFree?: boolean })[]) {
   return {
     knownPence: items.reduce((sum, item) => sum + (item.pricePence !== null && item.pricePence > 0 ? item.pricePence : 0), 0),
-    requiresQuote: items.some(item => item.pricePence === null || item.pricePence <= 0),
+    requiresQuote: items.some(item => !item.isFree && (item.pricePence === null || item.pricePence <= 0)),
   };
 }
 export const formatMoney = (pence: number) => new Intl.NumberFormat("en-GB", { style: "currency", currency: "GBP" }).format(pence / 100);
