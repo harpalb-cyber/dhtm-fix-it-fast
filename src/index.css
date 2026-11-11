@@ -190,15 +190,6 @@
 @font-face { font-family: Poppins; src: url('/fonts/poppins/Poppins-Regular.ttf') format('truetype'); font-weight: 400; font-display: swap; }
 @font-face { font-family: Poppins; src: url('/fonts/poppins/Poppins-SemiBold.ttf') format('truetype'); font-weight: 600; font-display: swap; }
 @font-face { font-family: Poppins; src: url('/fonts/poppins/Poppins-Bold.ttf') format('truetype'); font-weight: 700; font-display: swap; }
-.theme-control { position: fixed; bottom: max(16px, env(safe-area-inset-bottom)); left: 16px; z-index: 35; font: 13px/1.5 'Montserrat', sans-serif; }
-.theme-trigger { display:flex; align-items:center; gap:8px; min-height:44px; padding:10px 14px; border:1px solid #dce1eb; border-radius:24px; background:#fff; color:#20252f; box-shadow:0 3px 14px #20252f14; }
-.theme-options { position:absolute; bottom:56px; left:0; width:min(290px,calc(100vw - 32px)); padding:16px; background:#fff; color:#20252f; border:1px solid #dce1eb; border-radius:18px; box-shadow:0 10px 40px #20252f26; }
-.theme-options-heading { display:flex; align-items:center; justify-content:space-between; }
-.theme-options-heading button { padding:6px; }
-.theme-options p { font-size:12px; color:#596174; margin:8px 0 14px; }
-.theme-choice { display:flex; align-items:center; justify-content:space-between; width:100%; gap:12px; padding:12px; border:1px solid #e0e5ef; border-radius:12px; text-align:left; margin-top:8px; }
-.theme-choice[aria-pressed=true] { background:#f1f4fc; border-color:#2f60ef; }
-.theme-choice small { display:block; color:#596174; font-size:11px; margin-top:3px; }
 .floating-whatsapp { position:fixed; bottom:max(16px,env(safe-area-inset-bottom)); right:16px; z-index:34; min-height:56px; display:flex; align-items:center; gap:10px; padding:8px 18px 8px 8px; border-radius:999px; border:1px solid #e0e5ef; background:white; color:#20252f; box-shadow:0 5px 24px #20252f1a; font-size:14px; font-weight:600; }
 .floating-whatsapp > span { width:40px; height:40px; border-radius:50%; background:#eaf8ef; display:grid; place-items:center; }
 .floating-whatsapp img { filter:brightness(0) saturate(100%) invert(29%) sepia(25%) saturate(1280%) hue-rotate(94deg) brightness(92%); }
@@ -228,7 +219,7 @@ html[data-theme=rounded] a.inline-flex,html[data-theme=rounded] button.inline-fl
 html[data-theme=rounded] .small-note { font-size:13px; }
 html[data-theme=rounded] .whatsapp-panel { border-radius:24px; }
 html[data-theme=rounded] .location-panel h4 { margin-top:28px; }
-@media(max-width:767px) { html[data-theme=rounded] .process-band ol { grid-template-columns:1fr; } html[data-theme=rounded] .hero-copy > p { font-size:16px; } .theme-trigger span { display:none; } .theme-trigger { padding:12px; } }
+@media(max-width:767px) { html[data-theme=rounded] .process-band ol { grid-template-columns:1fr; } html[data-theme=rounded] .hero-copy > p { font-size:16px; } }
 
 /* Guided repair choices, shared by both themes. */
 .repair-picker-intro { margin-bottom:28px; }
